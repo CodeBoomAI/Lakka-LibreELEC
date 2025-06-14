@@ -278,6 +278,16 @@ devices = \
     },
   },
   'Rockchip': {
+    'RK322x': {
+      'hk1mini': {
+        'dtb': 'rk3229-box-hk1mini.dtb',
+        'config': 'rk3229-linux-miniloader-nand_defconfig'
+      },
+      'tinker': {
+        'dtb': 'rk3288-tinker-s.dtb',
+        'config': 'tinker-s-rk3288_defconfig'
+      },
+    },
     'RK3288': {
       'miqi': {
         'dtb': 'rk3288-miqi.dtb',
